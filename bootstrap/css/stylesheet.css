@@ -16,10 +16,18 @@
 }
 
 .section-lead {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Merriweather', serif;
 }
 
 .section-paragraph {
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 16px;
+}
+
+.modal-title {
+	font-family: 'Oswald', serif;
+}
+
+.modal-desc {
+	font-family: 'Pontano Sans', sans-serif;
 }

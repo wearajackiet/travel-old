@@ -22,10 +22,19 @@ footer {
 }
 
 .modal-body {
-	height: 300px;
+	padding:0;
+}
+
+.modal-footer {
+	padding:10px;
+	text-align: left;
 }
 
 .modal-dialog {
-	background: url('../../assets/photography/201506_PNW/Portland/DSC_0518.jpg');
-	background-size: 100%;
+	width: 90%;
+}
+
+.close {
+	margin-right: 8px;
+	margin-bottom: 5px;
 }
