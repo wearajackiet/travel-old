@@ -70,12 +70,17 @@ footer {
     .section-heading {
         font-size: 2em;
     }
+}
+
+@media(max-width:615px) {
 
     .image-bg-fluid-height {
         background-size: auto 100%;
     }
 
     .full-width-img {
-        height: auto;
+        height: 200px;
+        /*background-size: auto 100%; */
     }
+
 }
