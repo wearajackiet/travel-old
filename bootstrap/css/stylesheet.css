@@ -1,0 +1,25 @@
+.navbar-brand, .section-heading, .page-header {
+	font-family: 'Oswald', sans-serif;
+	text-transform: lowercase;
+}
+
+.section-heading a,
+.section-heading a:hover,
+.section-heading a:visited {
+	text-decoration: none;
+	color: #353535;
+}
+
+.navbar-nav {
+	font-family: 'Pontano Sans', sans-serif;
+	text-transform: lowercase;
+}
+
+.section-lead {
+	font-family: 'Merriweather', sans-serif;
+}
+
+.section-paragraph {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 16px;
+}

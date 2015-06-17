@@ -18,13 +18,21 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+	background: url('../../assets/cover.jpg') no-repeat center center scroll;
     padding: 100px 0;
+    background-size: 100%;
 }
 
-.image-bg-fixed-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+.img-pdx-1 {
+	background: url('../../assets/photography/201506_PNW/Portland/DSC_0550.jpg') no-repeat center center scroll;
     height: 450px;
+    background-size: 100%;
+}
+
+.img-sea-1 {
+    background: url('http://40.media.tumblr.com/7a5c0540e517a4660ae9c420f0408452/tumblr_ndfpo5tMuF1tkslyao1_1280.jpg') no-repeat center center scroll;
+    height: 450px;
+    background-size: 100%;
 }
 
 .img-center {

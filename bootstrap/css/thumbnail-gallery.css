@@ -9,7 +9,8 @@ body {
 }
 
 .thumb {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    overflow: hidden;
 }
 
 footer {
