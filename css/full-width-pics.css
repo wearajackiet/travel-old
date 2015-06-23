@@ -36,7 +36,15 @@ body {
 }
 
 .img-och-1 {
-    background: url('https://c1.staticflickr.com/1/450/18391867333_e8b67359be_b.jpg') no-repeat center center scroll;
+    background: url('https://c1.staticflickr.com/1/382/19071673912_4d4a4c47d8_b.jpg') no-repeat center center scroll;
+}
+
+.img-ctl-1 {
+    background: url('https://c1.staticflickr.com/1/338/18889578050_625873bbe6_b.jpg') no-repeat center center scroll;
+}
+
+.img-rwh-1 {
+    background: url('https://c2.staticflickr.com/4/3695/18889634858_76f7326b2a_b.jpg') no-repeat center center scroll;
 }
 
 .full-width-img {
