@@ -74,6 +74,7 @@ with open(fname, 'r') as fopen:
 
 		fwrite.write(html)
 
+fwrite.write('    </div></div>')
 footer = open('js/template/general_footer.html', 'r')
 fwrite.write(footer.read())
 
