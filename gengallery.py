@@ -6,33 +6,38 @@ if py3:
 else:
 	gallery = raw_input("Which gallery do you want to add to? ")
 
-outname = 'gallery/'+ gallery + '.html'
+if py3:
+	location = input("Which location do you want to add to? ")
+else:
+	location = raw_input("Which location do you want to add to? ")
+
+outname = gallery + '/'+ location + '.html'
 fwrite = open(outname, 'w')
 
 fwrite.write('<!DOCTYPE html>\n<html lang="en">\n\n<head>\n')
-fwrite.write('    <title>where\'s jackie at - ' + gallery + '</title>\n')
+fwrite.write('    <title>where\'s jackie at - ' + location + '</title>\n')
 
 header = open('js/template/gallery_header.html', 'r')
 fwrite.write(header.read())
 fwrite.write('\n\n')
 
-if gallery == "Vivian":
+if location == "Vivian":
 	pageTitle = "Vivian &amp; Jose"
-elif gallery == "Portland":
+elif location == "Portland":
 	pageTitle = "Portland, OR"
-elif gallery == "Seattle":
+elif location == "Seattle":
 	pageTitle = "Seattle, WA"
-elif gallery == "Vancouver":
+elif location == "Vancouver":
 	pageTitle = "Vancouver, BC"
 
 fwrite.write('            <div class="col-lg-12">\n')
 fwrite.write('                <h1 class="page-header">' + pageTitle + '</h1>\n')
 fwrite.write('            </div>\n')
 
-fname = 'gallery/photogen/' + gallery + '.txt'
+fname = gallery + '/photogen/' + location + '.txt'
 with open(fname, 'r') as fopen:
 	while True:
-		if gallery == "Vivian":
+		if location == "Vivian":
 			picViv = fopen.readline().rstrip('\n')
 		picNum = fopen.readline().rstrip('\n')
 		if not picNum: break
@@ -42,10 +47,10 @@ with open(fname, 'r') as fopen:
 		picDesc = fopen.readline().rstrip('\n')
 		fopen.readline()
 
-		if gallery == "Vivian":
+		if location == "Vivian":
 			thumb = "../assets/thumb/201506_PNW/" + picViv + "/DSC_" + picNum + ".jpg"
 		else:
-			thumb = "../assets/thumb/201506_PNW/" + gallery + "/DSC_" + picNum + ".jpg"
+			thumb = "../assets/thumb/201506_PNW/" + location + "/DSC_" + picNum + ".jpg"
 		print thumb
 
 		html = '            <div class="col-lg-3 col-md-4 col-xs-6 thumb">\n'
