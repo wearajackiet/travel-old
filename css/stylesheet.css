@@ -1,0 +1,35 @@
+.navbar-brand, .section-heading, .page-header {
+	font-family: 'Oswald', sans-serif;
+	text-transform: lowercase;
+}
+
+.section-heading a,
+.section-heading a:hover,
+.section-heading a:visited {
+	text-decoration: none;
+	color: #353535;
+}
+
+.navbar-nav {
+	font-family: 'Pontano Sans', sans-serif;
+	text-transform: lowercase;
+}
+
+.section-lead {
+	font-family: 'Merriweather', serif;
+}
+
+.section-paragraph {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	/*letter-spacing: 0.5px;*/
+}
+
+.modal-title {
+	font-family: 'Oswald', serif;
+}
+
+.modal-desc {
+	font-family: 'Rajdhani', sans-serif;
+	/*letter-spacing: 5px;*/
+}
